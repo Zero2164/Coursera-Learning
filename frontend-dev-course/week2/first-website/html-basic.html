@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Little Lemon Website Example HTML</title>
+    </head>
+
+    <body>
+        <h1>Example Menu</h1><!-- 'h1' or heading 1 element example - the '1' being the header-size you choose -->
+
+        <h2>Falafel</h2> <!-- 'h2' or heading 2 element example - the '2' being the header-size you choose -->
+        
+        <p>Chickpea, herbs and spices.</p> <!-- 'p' or paragraph element example -->
+        <!-- Image element example - linking to an external sourced image and specifying width and height attributes to adjust the size of the image, and specifying the 'alt' attribute to provide a description of the image to screen-reader software -->
+        <img width="240px" height="135px" alt="A Falafel"
+            src="https://images.unsplash.com/photo-1593001874117-c99c800e3eb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80">
+        
+        <h2>Pasta Salad</h2> <!-- 'h2' or heading 2 element example - the '2' being the header-size you choose -->
+
+        <p>Lettuce, Vegetables and Mozarella.</p> <!-- 'p' or paragraph element example -->
+
+        <!-- 'img' or Image element example - linking to an external sourced image and specifying width and height attributes to adjust the size of the image, and specifying the 'alt' attribute to provide a description of the image to screen-reader software -->
+        <img width="240px" height="135px" alt="A Pasta Salad"
+            src="https://images.unsplash.com/photo-1630492782892-74f99406dc59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80">
+        
+        <a href="location.html">Our Location</a> <!-- 'a' or anchor element example to create a hyperlink to a specified source -->
+        
+        <!-- Style element example to style the preceding Table element -->
+        <style>
+            /* Table, Table-Header, and Table-Data Cell elements being stylised */
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+        <!-- Table element example - with table-rows, table-headers, and table-data cell-->
+        <table>
+            <tr>
+                <th>Dish</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Falafel</td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td>Pasta Salad</td>
+                <td>$12.00</td>
+            </tr>
+        </table>
+        <!-- Form element example -->
+        <form action="location.html" method="GET">
+            <label for="username">Enter a Username:</label><br>
+            <input type="text" name="username"><br>
+            <label for="password">Choose a Password:</label><br>
+            <input type="password" name="password">
+            <input type="submit" value="SIGN UP TO GET LOCATION"> 
+        </form>
+    </body>
+
+</html>
